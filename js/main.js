@@ -17,7 +17,7 @@
 					if (count>5){
 						count=1;
 					}
-					sFile = '<img src=\'slajdy/slajd' + count + '.jpg\' />';
+					sFile = '<a href="http://www.berlitz.com"><img src=\'slajdy/slajd' + count + '.jpg\' /></a>';
 					document.getElementById('slider').innerHTML = sFile;
 					$('#slider').fadeIn(this.fadeInterval);
 					timer1 = setTimeout('sliderStart()', this.sliderInterval);
